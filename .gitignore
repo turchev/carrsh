@@ -1,0 +1,80 @@
+#=== Database ===
+db/*.properties
+db/*.lck
+
+#=== Maven directory ===
+/target/
+dist/
+
+##=== eclipse ===
+.settings/
+.project
+.classpath
+
+##=== modelio ===
+#.runtime/
+#data/
+#project.conf
+
+#=== netbeans ===
+#netbeans
+#nb*.xml
+
+#=== idea ===
+.idea/
+*.iml
+
+#===  package ===
+*.jar
+*.war
+*.ear
+
+#=== archive ===
+*.zip
+*.gz
+*.bz2
+*.7z
+
+#=== classes  ===
+*.class
+
+#=== Large media files  ===
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# The following files are generated/updated
+frontend/generated/
+/*.js
+/*.ts
+/*.json
+
+# Node files
+node_modules/
+dist/
+node/
+/*.npmrc
+
+# Unit test reports
+TEST*.xml
+
+#=== other ===
+other/
+tmp/
+out/
+*.log
+*.pdf
+.directory
+/*.iml
+/*.yaml
+/*.script
+
+
+
+
+
+
+

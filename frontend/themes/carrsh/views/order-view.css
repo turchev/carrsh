@@ -1,0 +1,33 @@
+.order-view {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.order-view .grid-wrapper {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.order-view .full-size {
+  width: 100%;
+  height: 100%;
+}
+
+.order-view #filter-layout {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-view #filter {
+  padding: var(--lumo-space-l);
+  flex-grow: 1;
+}
+
+.order-view #button-layout {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: var(--lumo-contrast-5pct);
+  padding: var(--lumo-space-s) var(--lumo-space-l);
+}
